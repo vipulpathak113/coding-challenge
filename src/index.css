@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 40px;
+  max-width: 80%;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.filter-table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.style-input {
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 3px;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.show-all-btn {
+  background: royalblue;
+  color: white;
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  border: none;
+  color: royalblue;
+  background: none;
+  text-decoration-line: underline;
+  font-size: 15px;
+  cursor: pointer;
+}
